@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background: teal;
+    padding: 0 10px;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.medsos{
+    padding: 5px 0;
+    background-color:#112445;
+}
+.medsos ul li{
+    display: inline-block;
+    color: white;
+    margin-right: 15px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+
+}
+.container::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+header h1{
+
+    float: left;
+    padding: 15px 0px;
+    color: #112445;
+}
+header ul{
+
+    float: right;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    padding: 25px 15px;
+    display: inline-block;
+}
+header ul li a:hover{
+    background-color: #112445;
+    color: white;
+}
+
+.banner{
+    height: 250px;
+    background-image: url(image/banner.jpg);
+    background-size:cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner h2{
+    color: white;
+    padding: 20px 25px;
+    border: 5px solid;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.head h2{
+    color: #112445;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.head{
+    text-align: center;
+}
+.about{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.main{
+    width: 700px;
+    height: 480px;
+    background-color: black;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 1px solid;
+}
+.main ul{
+    margin-top: 20px;
+    margin-left: -10px;
+    text-align: center;
+
+}
+.main li a{
+    cursor:pointer;
+    color:crimson;
+    font-size: 30px;
+}
+.main li{
+    list-style: none;
+    display: inline-block;
+    margin: 30px;
+}
+.bg{
+    border-radius: 10px;
+    background-color: #03a9f0;
+}
+.bg-content{
+    background-color: #6944ff;
+}
+.img{
+    background-image: url(image/foto-saya.jpg);
+    background-color: black;
+    background-size: cover;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+.main h1{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    font-weight: bold;
+    color: khaki;
+
+}
+.text{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+    color: khaki;
+}
+.main p{
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 450px;
+    height: auto;
+    color: khaki;
+    text-align: center;
+}
+.gambar{
+    margin-left: 10px;
+    float: left;
+    height: 300px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.ha{
+    color: white;
+}
+.back{
+    margin-left: 1280px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: blue;
+}
+.back a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+h4{
+    text-align: right;
+}
+.ed{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: blue;
+}
+footer{
+    padding: 30px 0;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
